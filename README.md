@@ -27,7 +27,6 @@ Dengan harapan dapat:
 
 ## 📦 Library yang Digunakan
 
-```python
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
