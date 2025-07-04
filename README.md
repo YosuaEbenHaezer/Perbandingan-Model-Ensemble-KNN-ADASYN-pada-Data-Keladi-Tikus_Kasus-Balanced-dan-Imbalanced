@@ -43,24 +43,26 @@ from sklearn.neighbors import KNeighborsClassifier
 
 from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, AdaBoostClassifier
 
-# ADASYN
+ADASYN
 
 from imblearn.over_sampling import ADASYN
 
 
 #🚀 Cara Menjalankan
-Pastikan environment Python kamu sudah memiliki semua library di atas.
-Install via pip jika belum:
 
-Salin kode
+-Pastikan environment Python kamu sudah memiliki semua library di atas.
 
-pip install pandas numpy scikit-learn imbalanced-learn
+-Install via pip jika belum:
 
-Sesuaikan dengan path data anda
+-pip install pandas numpy scikit-learn imbalanced-learn
 
-Jalankan notebook tanpa ADASYN.ipynb untuk eksperimen dengan data imbalanced.
+-Salin kode
 
-Jalankan notebook Project Makalah_Pembelajaran Mesin_Pake ADASYN.ipynb untuk eksperimen dengan data yang diseimbangkan menggunakan ADASYN.
+-Sesuaikan dengan path data anda
+
+-Jalankan notebook tanpa ADASYN.ipynb untuk eksperimen dengan data imbalanced.
+
+-Jalankan notebook Project Makalah_Pembelajaran Mesin_Pake ADASYN.ipynb untuk eksperimen dengan data yang diseimbangkan menggunakan ADASYN.
 
 🧪 Evaluasi Model
 Metrik yang digunakan:
