@@ -28,24 +28,36 @@ Dengan harapan dapat:
 ## 📦 Library yang Digunakan
 
 import pandas as pd
+
 import numpy as np
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.model_selection import train_test_split, cross_val_score
+
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
 
 # Model
 from sklearn.neighbors import KNeighborsClassifier
+
 from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, AdaBoostClassifier
 
 # ADASYN
+
 from imblearn.over_sampling import ADASYN
-🚀 Cara Menjalankan
+
+
+#🚀 Cara Menjalankan
 Pastikan environment Python kamu sudah memiliki semua library di atas.
 Install via pip jika belum:
 
-bash
 Salin kode
+
 pip install pandas numpy scikit-learn imbalanced-learn
+
+Sesuaikan dengan path data anda
+
 Jalankan notebook tanpa ADASYN.ipynb untuk eksperimen dengan data imbalanced.
 
 Jalankan notebook Project Makalah_Pembelajaran Mesin_Pake ADASYN.ipynb untuk eksperimen dengan data yang diseimbangkan menggunakan ADASYN.
